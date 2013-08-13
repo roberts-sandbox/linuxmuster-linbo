@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# yo
+
 for i in conf debian etc examples linbo share; do
  find ${i}/ -type f -name \*~ -exec rm '{}' \;
 done
